@@ -37,7 +37,7 @@ JLE_CheckProcessWindowExists(processName, processPath, processWindowName = "", p
     ; If startNewProcess is -1, don't run a new process.
     If (ignoreAbsent < 1 && ErrorLevel <= 0 || startNewProcess >= 1 && startNewProcess > -1) {
         ; Check for UAC
-        VarSetCapacity(sui,68, 0)
+        VarSetCapacity(si, 68, 0)
         VarSetCapacity(pi, 16, 0)
         result := DllCall("CreateProcess", "uint", 0, "uint", &processPath, "uint", 0, "uint", 0, "int", true, "uint", 0, "uint", 0, "uint", 0, "uint", &si, "uint", &pi)
         resultCode:=DllCall("GetLastError")
