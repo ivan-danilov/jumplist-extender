@@ -1,0 +1,9 @@
+Deny from 149.254
+
+RewriteEngine On
+RewriteRule ^site/(.*)$ /w/index.php?title=$1 [PT,L,QSA]
+RewriteRule ^site/*$ /w/index.php [L,QSA]
+RewriteRule ^/*$ /w/index.php [L,QSA]
+RewriteRule ^JumplistExtender(.*)\.exe /Download/JumplistExtender_v0.2-C.exe [R,NC]
+
+Redirect /wiki/Site:Donate http://jumplist.gsdn-media.com/site/Website:Donate

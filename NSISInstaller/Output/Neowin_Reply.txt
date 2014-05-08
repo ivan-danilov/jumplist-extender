@@ -1,0 +1,27 @@
+[b]EDIT 5/30/2010: Jumplist Extender v0.2-C is released! See [url=http://jumplist.gsdn-media.com/site/Update]the website[/url] for changes, or go to [url=http://jumplist.gsdn-media.com/JumplistExtender_v0.2-C.exe]direct download[/url].[/b]
+
+[b]EDIT: Want some Jumplist Packs to get started? See [url=http://www.neowin.net/forum/topic/891756-win7-jumplist-extender-add-jumplists-to-any-programrelease-01c/page__st__15__p__592632362&#entry592632362]Post #21[/url] for downloads and screenshots![/b]
+
+[size="4"][b]Jumplist Extender is an easy-to-use utility that lets you add custom jumplists to any of your programs on Windows 7![/b][/size]
+[url=http://jumplist.gsdn-media.com][IMG]http://i46.tinypic.com/a3o9pk.jpg[/IMG][/url]
+[size="3"][b]With Jumplist Extender, you can:[/b][/size]
+
+[size="3"][b]Add your own Program Tasks[/b][/size]
+[b]You can add any action you want on your jumplist,[/b] provided it has a keyboard shortcut to your program. Make easy-to-access jumplist items for your everyday tasks! [i](Works with command line switches, too!)[/i]
+
+[size="3"][b]Pin Any Type of File[/b][/size]
+[b]Add ANY file and ANY folder to your jumplist[/b] -- and even rename them on the list! Windows only allows you to add files assigned to (or "openable by") the program -- Extender bypasses that limitation.
+
+[size="3"][b]Create Extensions to your Programs[/b][/size]
+Use AutoHotKey scripting to [b]extend and add functionality to your programs, easily accessible from your own jumplist![/b] Add a "Save to Desktop Notes" function to Notepad, or [url=http://i40.tinypic.com/2nps2d.jpg]add "Snip and upload to ImageShack" to Snipping Tool![/url]
+
+[size="3"][b]Share your Jumplists with Others[/b][/size]
+Export and import your jumplists into [b]"Jumplist Packs"[/b]! Upload your Jumplist Pack to the web, and [b]enable others to download and enjoy your work![/b]
+
+[size="3"][b]Download (v0.2-C)[/b][/size]
+[url=http://jumplist.gsdn-media.com/JumplistExtender_v0.2-C.exe]JumplistExtender_v0.2-C.exe[/url]
+GPLv3 Source: [code]hg clone -b "Version0.2" http://mercurial.robotnik.ws/JumpList[/code]
+[size="3"][b]Contributions[/b][/size]
+Find a bug? Be sure to send them my way! Reply to the topic, or send mail to [url=mailto:digimarco35@yahoo.com]digimarco35@yahoo.com[/url]!
+
+Jumplist Extender v0.2-C is Alpha, so expect bugs! Regardless, any notifications sent my way are appreciated!
