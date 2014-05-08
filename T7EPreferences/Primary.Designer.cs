@@ -136,6 +136,8 @@ namespace T7EPreferences
             this.TabControl = new System.Windows.Forms.TabControl();
             this.TaskKBDSendInBackgroundCheckBox = new System.Windows.Forms.CheckBox();
             this.TaskKBDMinimizeAfterwardCheckBox = new System.Windows.Forms.CheckBox();
+            this.TaskCMDWorkDirLabel = new System.Windows.Forms.Label();
+            this.TaskCMDWorkdirTextBox = new System.Windows.Forms.TextBox();
             this.MenuStrip.SuspendLayout();
             this.StatusBar.SuspendLayout();
             this.AddButtonContextMenuStrip.SuspendLayout();
@@ -694,7 +696,9 @@ namespace T7EPreferences
             this.TaskCMDPanel.Controls.Add(this.TaskCMDHelpButton);
             this.TaskCMDPanel.Controls.Add(this.TaskCMDBrowseButton);
             this.TaskCMDPanel.Controls.Add(this.TaskCMDShowWindowCheckbox);
+            this.TaskCMDPanel.Controls.Add(this.TaskCMDWorkdirTextBox);
             this.TaskCMDPanel.Controls.Add(this.TaskCMDTextBox);
+            this.TaskCMDPanel.Controls.Add(this.TaskCMDWorkDirLabel);
             this.TaskCMDPanel.Controls.Add(this.TaskCMDLabel);
             this.TaskCMDPanel.Enabled = false;
             this.TaskCMDPanel.Location = new System.Drawing.Point(0, 50);
@@ -731,7 +735,7 @@ namespace T7EPreferences
             // TaskCMDShowWindowCheckbox
             // 
             this.TaskCMDShowWindowCheckbox.AutoSize = true;
-            this.TaskCMDShowWindowCheckbox.Location = new System.Drawing.Point(38, 62);
+            this.TaskCMDShowWindowCheckbox.Location = new System.Drawing.Point(38, 112);
             this.TaskCMDShowWindowCheckbox.Margin = new System.Windows.Forms.Padding(2);
             this.TaskCMDShowWindowCheckbox.Name = "TaskCMDShowWindowCheckbox";
             this.TaskCMDShowWindowCheckbox.Size = new System.Drawing.Size(222, 21);
@@ -1338,6 +1342,17 @@ namespace T7EPreferences
             this.TaskKBDSendInBackgroundCheckBox.UseVisualStyleBackColor = true;
             this.TaskKBDSendInBackgroundCheckBox.CheckedChanged += new System.EventHandler(this.TaskKBDSendInBackground_CheckedChanged);
             // 
+            // TaskCMDWorkDirLabel
+            // 
+            this.TaskCMDWorkDirLabel.AutoSize = true;
+            this.TaskCMDWorkDirLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TaskCMDWorkDirLabel.Location = new System.Drawing.Point(4, 57);
+            this.TaskCMDWorkDirLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.TaskCMDWorkDirLabel.Name = "TaskCMDWorkDirLabel";
+            this.TaskCMDWorkDirLabel.Size = new System.Drawing.Size(111, 13);
+            this.TaskCMDWorkDirLabel.TabIndex = 0;
+            this.TaskCMDWorkDirLabel.Text = "Working directory:";
+            // 
             // TaskKBDMinimizeAfterwardCheckBox
             // 
             this.TaskKBDMinimizeAfterwardCheckBox.AutoSize = true;
@@ -1348,6 +1363,17 @@ namespace T7EPreferences
             this.TaskKBDMinimizeAfterwardCheckBox.Text = "Minimize/deactivate";
             this.TaskKBDMinimizeAfterwardCheckBox.UseVisualStyleBackColor = true;
             this.TaskKBDMinimizeAfterwardCheckBox.CheckedChanged += new System.EventHandler(this.TaskKBDMinimizeAfterwardCheckBox_CheckedChanged);
+            // 
+            // TaskCMDWorkdirTextBox
+            // 
+            this.TaskCMDWorkdirTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.TaskCMDWorkdirTextBox.Location = new System.Drawing.Point(8, 75);
+            this.TaskCMDWorkdirTextBox.Margin = new System.Windows.Forms.Padding(2);
+            this.TaskCMDWorkdirTextBox.Name = "TaskCMDWorkdirTextBox";
+            this.TaskCMDWorkdirTextBox.Size = new System.Drawing.Size(304, 20);
+            this.TaskCMDWorkdirTextBox.TabIndex = 1;
+            this.TaskCMDWorkdirTextBox.Leave += new System.EventHandler(this.TaskCMDWorkDirTextBox_Leave);
             // 
             // Primary
             // 
@@ -1503,6 +1529,8 @@ namespace T7EPreferences
         private System.Windows.Forms.ToolStripMenuItem disableDonationBalloonToolStripMenuItem;
         private System.Windows.Forms.CheckBox TaskKBDSendInBackgroundCheckBox;
         private System.Windows.Forms.CheckBox TaskKBDMinimizeAfterwardCheckBox;
+        private System.Windows.Forms.TextBox TaskCMDWorkdirTextBox;
+        private System.Windows.Forms.Label TaskCMDWorkDirLabel;
     }
 }
 
