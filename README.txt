@@ -33,7 +33,7 @@ Thanks for downloading the Jumplist Extender (JLE) v0.3 source! JLE is written p
 
 The main solution will build into /bin, with everything you need to run the complete program.
 
-To build an installation file, first install InnoSetup 5 or later. Then build NSISInstaller /by itself/ to activate the post-build actions that produce the install. (For some reason, it does not work when building the whole solution.)
+To build an installation file, first install InnoSetup 5 or later to the default location (`%ProgramFiles(x86)%\Inno Setup 5\`). Then build NSISInstaller project /in the Release configuration/ to activate the post-build actions that produce the install. Result installation file will be created in `\NSISInstaller\Output\` folder.
 
 
 LICENSE
